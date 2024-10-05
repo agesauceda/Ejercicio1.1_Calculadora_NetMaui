@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio_1._1___Calculadora.MainPage"
+              Title="CALCULADORA">
+
+    <StackLayout
+            Padding="30,0"
+            Spacing="25">
+        <Entry x:Name="Num1" Placeholder="ESCRIBE UN NÚMERO" Keyboard="Numeric"/>
+        <Entry x:Name="Num2" Placeholder="ESCRIBE UN NÚMERO" Keyboard="Numeric"/>
+
+        <Button x:Name="btnSuma" Text="SUMA" Clicked="EvSuma"  BackgroundColor="Yellow" TextColor="Black"/>
+        <Button x:Name="btnResta" Text="RESTA" Clicked="EvResta" BackgroundColor="Yellow" TextColor="Black"/>
+        <Button x:Name="btnMulti" Text="MULTIPLICACIÓN" Clicked="EvMultiplicacion" BackgroundColor="Yellow" TextColor="Black"/>
+        <Button x:Name="btnDivi" Text="DIVISIÓN" Clicked="EvDivision" BackgroundColor="Yellow" TextColor="Black"/>
+    </StackLayout>
+</ContentPage>
